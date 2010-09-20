@@ -1,0 +1,5 @@
+libpam-ssh-agent (0.9.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #595817)
+
+ -- Alban Peignier <alban@tryphon.eu>  Mon, 20 Sep 2010 13:23:15 +0200

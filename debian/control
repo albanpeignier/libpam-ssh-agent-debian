@@ -1,0 +1,15 @@
+Source: libpam-ssh-agent
+Section: admin
+Priority: optional
+Maintainer: Alban Peignier <alban@tryphon.eu>
+Build-Depends: cdbs, debhelper, autotools-dev, libpam0g-dev, libssl-dev
+Standards-Version: 3.8.4
+Homepage: http://sourceforge.net/projects/pamsshagentauth/
+
+Package: libpam-ssh-agent
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Authentication using SSH Agent
+ This pluggable authentication module (PAM) provides authentication via secure
+ shell (SSH) agent.  Written with sudo in mind, but like any auth PAM module,
+ can be used for many purposes.
